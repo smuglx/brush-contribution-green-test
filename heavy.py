@@ -52,5 +52,4 @@ def love_commit(start_date, path, etc_path):
 
 
 if __name__ == '__main__':
-    love_commit(datetime.date(2015, 3, 1), '/media/Software/coding/python/loveci/only.you', 'etc/love')
-
+    love_commit(datetime.date(2016, 5, 8), 'D:\work\git\smuwjs\contribution-green-brush\zero.md', 'D:\work\git\smuwjs\contribution-green-brush\etc\love')
