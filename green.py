@@ -5,9 +5,11 @@ import os
 
 
 def modify():
-    file = open('D:\work\git\smuwjs\contribution-green-brush\zero.md', 'r')
+	#第一个参数改为zero.md所在的路径
+    file = open('D:\work\git\smuwjs\contribution-green-brush\zero.md', 'r') 
     flag = int(file.readline()) == 0
     file.close()
+	#第一个参数改为zero.md所在的路径
     file = open('D:\work\git\smuwjs\contribution-green-brush\zero.md', 'w+')
     if flag:
         file.write('1')
@@ -38,3 +40,4 @@ def daily_commit(start_date, end_date):
 
 if __name__ == '__main__':
     daily_commit(datetime.date(2016, 5, 8), datetime.date(2017, 5, 8))
+	#第一个参数为开始日期（小绿点表格左上），第二个结束日期（小绿点表格右下）

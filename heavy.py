@@ -52,4 +52,5 @@ def love_commit(start_date, path, etc_path):
 
 
 if __name__ == '__main__':
-    love_commit(datetime.date(2016, 5, 8), 'D:\work\git\smuwjs\contribution-green-brush\zero.md', 'D:\work\git\smuwjs\contribution-green-brush\etc\love')
+# 	第一个参数为开始日期（小绿点表格左上），第二个参数为zero.md所在路劲，第三个为love文件所在路径
+    love_commit(datetime.date(2015, 8, 16), 'D:\work\git\smuwjs\contribution-green-brush\zero.md', 'D:\work\git\smuwjs\contribution-green-brush\etc\love')
