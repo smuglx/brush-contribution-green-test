@@ -5,10 +5,10 @@ import os
 
 
 def modify():
-    file = open('zero.md', 'r')
+    file = open('D:\work\git\smuwjs\contribution-green-brush\zero.md', 'r')
     flag = int(file.readline()) == 0
     file.close()
-    file = open('zero.md', 'w+')
+    file = open('D:\work\git\smuwjs\contribution-green-brush\zero.md', 'w+')
     if flag:
         file.write('1')
     else:
@@ -17,11 +17,11 @@ def modify():
 
 
 def commit():
-    os.system('git commit -a -m test_github_streak > /dev/null 2>&1')
+    os.system('git commit -a -m "test"')
 
 
 def set_sys_time(year, month, day):
-    os.system('date -s %04d%02d%02d' % (year, month, day))
+    os.system('date %04d/%02d/%02d' % (year, month, day))
 
 
 def trick_commit(year, month, day):
@@ -37,4 +37,4 @@ def daily_commit(start_date, end_date):
 
 
 if __name__ == '__main__':
-    daily_commit(datetime.date(2016, 3, 31), datetime.date(2017, 1, 28))
+    daily_commit(datetime.date(2015, 5, 16), datetime.date(2016, 7, 16))
