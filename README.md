@@ -1,5 +1,5 @@
 # 刷遍小绿点
-
+[原文出处](https://ahangchen.gitbooks.io/windy-afternoon/content/kit/git/green_blush.html)
 > 不知道这算不算github的bug，仅供娱乐。
 
 首先github统计小绿点的逻辑是这样的：[戳](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile)
